@@ -1,12 +1,12 @@
 # react-native-font-list
 
-## Getting started
+## Installation
 
+Yarn:
+`$ yarn add react-native-font-list`
+
+NPM:
 `$ npm install react-native-font-list --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-font-list`
 
 ## Usage
 ```javascript
