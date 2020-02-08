@@ -3,10 +3,12 @@
 ## Installation
 
 Yarn:
-`$ yarn add react-native-font-list`
+
+`yarn add react-native-font-list`
 
 NPM:
-`$ npm install react-native-font-list --save`
+
+`npm install react-native-font-list --save`
 
 ## Usage
 ```javascript
