@@ -20,8 +20,7 @@ public class FontListModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void sampleMethod(String stringArgument, int numberArgument, Callback callback) {
-        // TODO: Implement some actually useful functionality
-        callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
+    public void sampleMethod(String stringArgument, int numberArgument, Promise promise) {
+        promise.resolve('We have been resolved!');
     }
 }
