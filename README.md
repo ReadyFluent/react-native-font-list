@@ -27,7 +27,7 @@ const [installedFonts, setInstalledFonts] = useState([]);
 
 FontList.get((fontFamilies, fonts) => {
   setAvailableFontFamilies(fontFamilies);
-  setAvailableFonts(setInstalledFonts);
+  setInstalledFonts(fonts);
 });
 ```
 
